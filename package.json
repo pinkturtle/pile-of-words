@@ -1,16 +1,14 @@
 {
   "name": "pile-of-words",
-  "version": "0.0.0",
-  "description": "Demo of the history model in Facts",
-  "main": "index.html",
+  "description": "Basic demo of the history model in pinkturtle/facts",
+  "license": "Unlicense",
+  "readme": "index.html",
   "repository": "pinkturtle/pile-of-words",
+  "version": "0.0.0",
   "devDependencies": {
     "coffee-script": "^1.10.0"
   },
   "scripts": {
-    "start": "coffee --watch --compile *.coffee",
-    "test": "open index.html"
-  },
-  "keywords": ["facts", "history", "pinkturtle"],
-  "license": "Unlicense"
+    "start": "open index.html; coffee --watch --compile *.coffee"
+  }
 }
